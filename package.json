@@ -4,7 +4,9 @@
   "description": "first node project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "",
+    "build": "babel src -d lib",
+    "start": "node lib/index.js"
   },
   "keywords": [
     "lesson"
